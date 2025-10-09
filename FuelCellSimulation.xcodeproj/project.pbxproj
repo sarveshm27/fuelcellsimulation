@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7754463C2E979B850091F754 /* FuelCellSimulationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754463B2E979B850091F754 /* FuelCellSimulationApp.swift */; };
+		7754463E2E979B850091F754 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754463D2E979B850091F754 /* ContentView.swift */; };
+		775446402E979B860091F754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7754463F2E979B860091F754 /* Assets.xcassets */; };
+		775446432E979B860091F754 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775446422E979B860091F754 /* Preview Assets.xcassets */; };
+		7754464E2E979B860091F754 /* FuelCellSimulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754464D2E979B860091F754 /* FuelCellSimulationTests.swift */; };
+		775446582E979B860091F754 /* FuelCellSimulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775446572E979B860091F754 /* FuelCellSimulationUITests.swift */; };
+		7754465A2E979B860091F754 /* FuelCellSimulationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775446592E979B860091F754 /* FuelCellSimulationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7754464A2E979B860091F754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775446302E979B850091F754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775446372E979B850091F754;
+			remoteInfo = FuelCellSimulation;
+		};
+		775446542E979B860091F754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775446302E979B850091F754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775446372E979B850091F754;
+			remoteInfo = FuelCellSimulation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		775446382E979B850091F754 /* FuelCellSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelCellSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7754463B2E979B850091F754 /* FuelCellSimulationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCellSimulationApp.swift; sourceTree = "<group>"; };
+		7754463D2E979B850091F754 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7754463F2E979B860091F754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775446422E979B860091F754 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		775446442E979B860091F754 /* FuelCellSimulation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FuelCellSimulation.entitlements; sourceTree = "<group>"; };
+		775446492E979B860091F754 /* FuelCellSimulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelCellSimulationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7754464D2E979B860091F754 /* FuelCellSimulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCellSimulationTests.swift; sourceTree = "<group>"; };
+		775446532E979B860091F754 /* FuelCellSimulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelCellSimulationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775446572E979B860091F754 /* FuelCellSimulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCellSimulationUITests.swift; sourceTree = "<group>"; };
+		775446592E979B860091F754 /* FuelCellSimulationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCellSimulationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775446352E979B850091F754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775446462E979B860091F754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775446502E979B860091F754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7754462F2E979B850091F754 = {
+			isa = PBXGroup;
+			children = (
+				7754463A2E979B850091F754 /* FuelCellSimulation */,
+				7754464C2E979B860091F754 /* FuelCellSimulationTests */,
+				775446562E979B860091F754 /* FuelCellSimulationUITests */,
+				775446392E979B850091F754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775446392E979B850091F754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775446382E979B850091F754 /* FuelCellSimulation.app */,
+				775446492E979B860091F754 /* FuelCellSimulationTests.xctest */,
+				775446532E979B860091F754 /* FuelCellSimulationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7754463A2E979B850091F754 /* FuelCellSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				7754463B2E979B850091F754 /* FuelCellSimulationApp.swift */,
+				7754463D2E979B850091F754 /* ContentView.swift */,
+				7754463F2E979B860091F754 /* Assets.xcassets */,
+				775446442E979B860091F754 /* FuelCellSimulation.entitlements */,
+				775446412E979B860091F754 /* Preview Content */,
+			);
+			path = FuelCellSimulation;
+			sourceTree = "<group>";
+		};
+		775446412E979B860091F754 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				775446422E979B860091F754 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7754464C2E979B860091F754 /* FuelCellSimulationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7754464D2E979B860091F754 /* FuelCellSimulationTests.swift */,
+			);
+			path = FuelCellSimulationTests;
+			sourceTree = "<group>";
+		};
+		775446562E979B860091F754 /* FuelCellSimulationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				775446572E979B860091F754 /* FuelCellSimulationUITests.swift */,
+				775446592E979B860091F754 /* FuelCellSimulationUITestsLaunchTests.swift */,
+			);
+			path = FuelCellSimulationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775446372E979B850091F754 /* FuelCellSimulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7754465D2E979B860091F754 /* Build configuration list for PBXNativeTarget "FuelCellSimulation" */;
+			buildPhases = (
+				775446342E979B850091F754 /* Sources */,
+				775446352E979B850091F754 /* Frameworks */,
+				775446362E979B850091F754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuelCellSimulation;
+			productName = FuelCellSimulation;
+			productReference = 775446382E979B850091F754 /* FuelCellSimulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775446482E979B860091F754 /* FuelCellSimulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775446602E979B860091F754 /* Build configuration list for PBXNativeTarget "FuelCellSimulationTests" */;
+			buildPhases = (
+				775446452E979B860091F754 /* Sources */,
+				775446462E979B860091F754 /* Frameworks */,
+				775446472E979B860091F754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7754464B2E979B860091F754 /* PBXTargetDependency */,
+			);
+			name = FuelCellSimulationTests;
+			productName = FuelCellSimulationTests;
+			productReference = 775446492E979B860091F754 /* FuelCellSimulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		775446522E979B860091F754 /* FuelCellSimulationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775446632E979B860091F754 /* Build configuration list for PBXNativeTarget "FuelCellSimulationUITests" */;
+			buildPhases = (
+				7754464F2E979B860091F754 /* Sources */,
+				775446502E979B860091F754 /* Frameworks */,
+				775446512E979B860091F754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775446552E979B860091F754 /* PBXTargetDependency */,
+			);
+			name = FuelCellSimulationUITests;
+			productName = FuelCellSimulationUITests;
+			productReference = 775446532E979B860091F754 /* FuelCellSimulationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775446302E979B850091F754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					775446372E979B850091F754 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					775446482E979B860091F754 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 775446372E979B850091F754;
+					};
+					775446522E979B860091F754 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 775446372E979B850091F754;
+					};
+				};
+			};
+			buildConfigurationList = 775446332E979B850091F754 /* Build configuration list for PBXProject "FuelCellSimulation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7754462F2E979B850091F754;
+			productRefGroup = 775446392E979B850091F754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775446372E979B850091F754 /* FuelCellSimulation */,
+				775446482E979B860091F754 /* FuelCellSimulationTests */,
+				775446522E979B860091F754 /* FuelCellSimulationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775446362E979B850091F754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775446432E979B860091F754 /* Preview Assets.xcassets in Resources */,
+				775446402E979B860091F754 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775446472E979B860091F754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775446512E979B860091F754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775446342E979B850091F754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7754463E2E979B850091F754 /* ContentView.swift in Sources */,
+				7754463C2E979B850091F754 /* FuelCellSimulationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775446452E979B860091F754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7754464E2E979B860091F754 /* FuelCellSimulationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7754464F2E979B860091F754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775446582E979B860091F754 /* FuelCellSimulationUITests.swift in Sources */,
+				7754465A2E979B860091F754 /* FuelCellSimulationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7754464B2E979B860091F754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775446372E979B850091F754 /* FuelCellSimulation */;
+			targetProxy = 7754464A2E979B860091F754 /* PBXContainerItemProxy */;
+		};
+		775446552E979B860091F754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775446372E979B850091F754 /* FuelCellSimulation */;
+			targetProxy = 775446542E979B860091F754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7754465B2E979B860091F754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7754465C2E979B860091F754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7754465E2E979B860091F754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FuelCellSimulation/FuelCellSimulation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FuelCellSimulation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manmohan.FuelCellSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7754465F2E979B860091F754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FuelCellSimulation/FuelCellSimulation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FuelCellSimulation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manmohan.FuelCellSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		775446612E979B860091F754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manmohan.FuelCellSimulationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuelCellSimulation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuelCellSimulation";
+			};
+			name = Debug;
+		};
+		775446622E979B860091F754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manmohan.FuelCellSimulationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuelCellSimulation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuelCellSimulation";
+			};
+			name = Release;
+		};
+		775446642E979B860091F754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manmohan.FuelCellSimulationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FuelCellSimulation;
+			};
+			name = Debug;
+		};
+		775446652E979B860091F754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manmohan.FuelCellSimulationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FuelCellSimulation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775446332E979B850091F754 /* Build configuration list for PBXProject "FuelCellSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7754465B2E979B860091F754 /* Debug */,
+				7754465C2E979B860091F754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7754465D2E979B860091F754 /* Build configuration list for PBXNativeTarget "FuelCellSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7754465E2E979B860091F754 /* Debug */,
+				7754465F2E979B860091F754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775446602E979B860091F754 /* Build configuration list for PBXNativeTarget "FuelCellSimulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775446612E979B860091F754 /* Debug */,
+				775446622E979B860091F754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775446632E979B860091F754 /* Build configuration list for PBXNativeTarget "FuelCellSimulationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775446642E979B860091F754 /* Debug */,
+				775446652E979B860091F754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775446302E979B850091F754 /* Project object */;
+}
