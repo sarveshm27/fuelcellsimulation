@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77214B8A2E97B00000432CCD /* FuelCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B8B2E97B00000432CCD /* FuelCellModel.swift */; };
+		77214B852E97A21500432CCD /* loadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B842E97A21500432CCD /* loadData.swift */; };
+		77214B872E97A37100432CCD /* chartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B862E97A37100432CCD /* chartView.swift */; };
+		77214B892E97A39B00432CCD /* dataentryview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B882E97A39B00432CCD /* dataentryview.swift */; };
 		7754463C2E979B850091F754 /* FuelCellSimulationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754463B2E979B850091F754 /* FuelCellSimulationApp.swift */; };
 		7754463E2E979B850091F754 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754463D2E979B850091F754 /* ContentView.swift */; };
 		775446402E979B860091F754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7754463F2E979B860091F754 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77214B8B2E97B00000432CCD /* FuelCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCellModel.swift; sourceTree = "<group>"; };
+		77214B842E97A21500432CCD /* loadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadData.swift; sourceTree = "<group>"; };
+		77214B862E97A37100432CCD /* chartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartView.swift; sourceTree = "<group>"; };
+		77214B882E97A39B00432CCD /* dataentryview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataentryview.swift; sourceTree = "<group>"; };
 		775446382E979B850091F754 /* FuelCellSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelCellSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7754463B2E979B850091F754 /* FuelCellSimulationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCellSimulationApp.swift; sourceTree = "<group>"; };
 		7754463D2E979B850091F754 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +108,10 @@
 				7754463F2E979B860091F754 /* Assets.xcassets */,
 				775446442E979B860091F754 /* FuelCellSimulation.entitlements */,
 				775446412E979B860091F754 /* Preview Content */,
+				77214B842E97A21500432CCD /* loadData.swift */,
+				77214B862E97A37100432CCD /* chartView.swift */,
+				77214B882E97A39B00432CCD /* dataentryview.swift */,
+				77214B8B2E97B00000432CCD /* FuelCellModel.swift */,
 			);
 			path = FuelCellSimulation;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77214B892E97A39B00432CCD /* dataentryview.swift in Sources */,
 				7754463E2E979B850091F754 /* ContentView.swift in Sources */,
+				77214B852E97A21500432CCD /* loadData.swift in Sources */,
+				77214B8A2E97B00000432CCD /* FuelCellModel.swift in Sources */,
 				7754463C2E979B850091F754 /* FuelCellSimulationApp.swift in Sources */,
+				77214B872E97A37100432CCD /* chartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
