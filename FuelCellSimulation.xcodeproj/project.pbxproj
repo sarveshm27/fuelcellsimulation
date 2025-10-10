@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77214B8E2E97B00200432CCD /* EcosenseFuelCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B8F2E97B00200432CCD /* EcosenseFuelCellModel.swift */; };
+		77214B902E97B00300432CCD /* FuelCellReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B912E97B00300432CCD /* FuelCellReading.swift */; };
+		77214B922E97B00400432CCD /* EcosenseFuelCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B932E97B00400432CCD /* EcosenseFuelCellView.swift */; };
+		77214B8C2E97B00100432CCD /* PEMFuelCellSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B8D2E97B00100432CCD /* PEMFuelCellSimulator.swift */; };
 		77214B8A2E97B00000432CCD /* FuelCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B8B2E97B00000432CCD /* FuelCellModel.swift */; };
 		77214B852E97A21500432CCD /* loadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B842E97A21500432CCD /* loadData.swift */; };
 		77214B872E97A37100432CCD /* chartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B862E97A37100432CCD /* chartView.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77214B8F2E97B00200432CCD /* EcosenseFuelCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcosenseFuelCellModel.swift; sourceTree = "<group>"; };
+		77214B912E97B00300432CCD /* FuelCellReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCellReading.swift; sourceTree = "<group>"; };
+		77214B932E97B00400432CCD /* EcosenseFuelCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcosenseFuelCellView.swift; sourceTree = "<group>"; };
+		77214B8D2E97B00100432CCD /* PEMFuelCellSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PEMFuelCellSimulator.swift; sourceTree = "<group>"; };
 		77214B8B2E97B00000432CCD /* FuelCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCellModel.swift; sourceTree = "<group>"; };
 		77214B842E97A21500432CCD /* loadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadData.swift; sourceTree = "<group>"; };
 		77214B862E97A37100432CCD /* chartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartView.swift; sourceTree = "<group>"; };
@@ -112,6 +120,10 @@
 				77214B862E97A37100432CCD /* chartView.swift */,
 				77214B882E97A39B00432CCD /* dataentryview.swift */,
 				77214B8B2E97B00000432CCD /* FuelCellModel.swift */,
+				77214B8D2E97B00100432CCD /* PEMFuelCellSimulator.swift */,
+				77214B8F2E97B00200432CCD /* EcosenseFuelCellModel.swift */,
+				77214B912E97B00300432CCD /* FuelCellReading.swift */,
+				77214B932E97B00400432CCD /* EcosenseFuelCellView.swift */,
 			);
 			path = FuelCellSimulation;
 			sourceTree = "<group>";
@@ -275,8 +287,12 @@
 				7754463E2E979B850091F754 /* ContentView.swift in Sources */,
 				77214B852E97A21500432CCD /* loadData.swift in Sources */,
 				77214B8A2E97B00000432CCD /* FuelCellModel.swift in Sources */,
+				77214B8C2E97B00100432CCD /* PEMFuelCellSimulator.swift in Sources */,
 				7754463C2E979B850091F754 /* FuelCellSimulationApp.swift in Sources */,
 				77214B872E97A37100432CCD /* chartView.swift in Sources */,
+				77214B8E2E97B00200432CCD /* EcosenseFuelCellModel.swift in Sources */,
+				77214B902E97B00300432CCD /* FuelCellReading.swift in Sources */,
+				77214B922E97B00400432CCD /* EcosenseFuelCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
